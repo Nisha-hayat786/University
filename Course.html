@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="University.css">
+    <title>University Website</title>
+    <script src="https://kit.fontawesome.com/dab0f1b45a.js" crossorigin="anonymous"></script>
+
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="University.html">
+        <img src="logo.png" alt="Error loading image" height="130px" width="130px" class="logo"></a>
+            <div class="nav-links" id="navlinks">
+                
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="University.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptate, nisi officiis animi nam delectus quibusdam dignissimos iusto distinctio facere.</p>
+        <div class="row">
+            <div class="coursecol">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quidem temporibus labore quam eveniet quis laboriosam et, obcaecati, expedita rem repellat aliquid alias voluptatibus deserunt, corporis dicta modi praesentium quas?</p>
+            </div>
+            <div class="coursecol">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quidem temporibus labore quam eveniet quis laboriosam et, obcaecati, expedita rem repellat aliquid alias voluptatibus deserunt, corporis dicta modi praesentium quas?</p>
+            </div>
+            <div class="coursecol">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quidem temporibus labore quam eveniet quis laboriosam et, obcaecati, expedita rem repellat aliquid alias voluptatibus deserunt, corporis dicta modi praesentium quas?</p>
+            </div>
+        </div>
+        </section> 
+
+<!-- -------facilities------ -->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque corrupti officia error odio iure consequuntur voluptates beatae nisi tempora aliquam?</p>
+
+    <div class="row">
+       <div class="facilitiescol">
+           <img src="library.png" alt="">
+           <h3>World Class Library</h3>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente incidunt error nulla in earum libero fugiat molestias, doloremque modi totam.</p>
+       </div> 
+       <div class="facilitiescol">
+        <img src="basketball.png" alt="">
+        <h3>Largest Play Area</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente incidunt error nulla in earum libero fugiat molestias, doloremque modi totam.</p>
+    </div> 
+    <div class="facilitiescol">
+        <img src="cafeteria.png" alt="">
+        <h3>Tasty and Healthy Food</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente incidunt error nulla in earum libero fugiat molestias, doloremque modi totam.</p>
+    </div> 
+
+    </div>
+</section>
+
+<!-- -----Footer----- -->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et tempore praesentium dolores alias dolorum exercitationem voluptate <br> error at adipisci. Qui! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsam! lorem30</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>        
+        <i class="fa fa-twitter" ></i> 
+        <i class="fa fa-instagram" ></i> 
+        <i class="fa fa-linkedin" ></i> 
+        <!-- <i class="fa fa-facebook" ></i>  -->
+    </div>
+    <p>Made with <i class="fa fa-heart-o" ></i>by Nisha Fatima </p>
+</section>
+
+    <!-- Java Script -->
+
+    <script>
+        var navlinks = document.getElementById(navlinks) ;
+         function showMenu(){
+             navlinks.style.right = "0px";
+         }
+         function hideMenu(){
+             navlinks.style.right = "-200px";
+         }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="University.css">
+    <title>University Website</title>
+    <script src="https://kit.fontawesome.com/dab0f1b45a.js" crossorigin="anonymous"></script>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="University.html">
+        <img src="logo.png" alt="Error loading image" height="130px" width="130px" class="logo"></a>
+            <div class="nav-links" id="navlinks">
+                
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="University.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                     
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="aboutcol">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias iste facilis exercitationem eligendi perferendis commodi, voluptas rem autem. Blanditiis nobis dolore quis rem aliquam! Ducimus eum enim iste eius! Itaque eaque quae modi cum sit placeat aspernatur ipsa aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores ea reiciendis saepe vero, nemo explicabo cum quae sapiente velit modi! Officia laboriosam minima quo sint maxime voluptatibus adipisci unde!</p>
+                <a href="" class="btn1">EXPLORE NOW</a>
+            </div>
+            <div class="aboutcol">
+                <img src="about.jpg" alt="About">
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- -----Footer----- -->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et tempore praesentium dolores alias dolorum exercitationem voluptate <br> error at adipisci. Qui! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsam! lorem30</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>        
+        <i class="fa fa-twitter" ></i> 
+        <i class="fa fa-instagram" ></i> 
+        <i class="fa fa-linkedin" ></i> 
+        <!-- <i class="fa fa-facebook" ></i>  -->
+    </div>
+    <p>Made with <i class="fa fa-heart-o" ></i>by Nisha Fatima </p>
+</section>
+
+    <!-- Java Script -->
+
+    <script>
+        var navlinks = document.getElementById(navlinks) ;
+         function showMenu(){
+             navlinks.style.right = "0px";
+         }
+         function hideMenu(){
+             navlinks.style.right = "-200px";
+         }
+    </script>
+
+</body>
+</html>
